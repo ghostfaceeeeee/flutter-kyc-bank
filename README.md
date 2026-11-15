@@ -2,6 +2,10 @@
 
 Aplikasi formulir KYC (*Know Your Customer*) dan simulasi pengajuan pinjaman nasabah bank berbasis **Flutter** dengan tampilan antarmuka modern Material 3.
 
+<p align="center">
+  <img src="assets/screenshots/preview.png" width="320" alt="KYC Bank App Preview" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
+</p>
+
 ## ✨ Fitur Utama
 
 - **Multi-step Onboarding / Form**: Alur pendaftaran terstruktur bertahap (Data Diri & Pengajuan Pinjaman).
@@ -31,10 +35,17 @@ Pastikan Flutter SDK sudah terpasang di sistem Anda.
    flutter pub get
    ```
 
-3. Jalankan aplikasi di emulator atau perangkat fisik:
-   ```bash
-   flutter run
-   ```
+3. Jalankan aplikasi:
+   - Di Web:
+     ```bash
+     flutter run -d chrome
+     # atau
+     flutter run -d web-server --web-port=8080
+     ```
+   - Di Desktop Windows:
+     ```bash
+     flutter run -d windows
+     ```
 
 ## 🛠️ Teknologi & Environment
 - **Framework**: Flutter (Dart SDK `^3.13.4`)
