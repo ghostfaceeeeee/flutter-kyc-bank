@@ -6,7 +6,7 @@ Aplikasi formulir KYC (*Know Your Customer*) dan simulasi pengajuan pinjaman nas
   <img src="assets/screenshots/preview.png" width="320" alt="KYC Bank App Preview" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
 </p>
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 - **Multi-step Onboarding / Form**: Alur pendaftaran terstruktur bertahap (Data Diri & Pengajuan Pinjaman).
 - **Validasi Data**:
@@ -20,7 +20,7 @@ Aplikasi formulir KYC (*Know Your Customer*) dan simulasi pengajuan pinjaman nas
   - Animasi transisi halaman yang halus.
 - **Desain Modern**: Tema Material 3 dengan palet warna perbankan biru elegan (`#1565C0`).
 
-## 🚀 Menjalankan Aplikasi
+## Menjalankan Aplikasi
 
 Pastikan Flutter SDK sudah terpasang di sistem Anda.
 
@@ -47,7 +47,7 @@ Pastikan Flutter SDK sudah terpasang di sistem Anda.
      flutter run -d windows
      ```
 
-## 🛠️ Teknologi & Environment
+## Teknologi & Environment
 - **Framework**: Flutter (Dart SDK `^3.13.4`)
 - **UI System**: Material 3
 - **Icons**: Cupertino Icons
